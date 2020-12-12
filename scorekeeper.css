@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.general {
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+}
+.playerone {
+    background: darkblue;
+    padding: 5px 45px;
+    border-top-left-radius: 30px;
+}
+.playertwo {
+    background: darkblue;
+    padding: 5px 45px;
+    border-top-right-radius: 30px;
+}
+.playerone h4 , .playertwo h4{
+    color: white;
+}
+.playerone h1 , .playertwo h1{
+    color: yellow;
+    font-family: cursive;
+}
+input[type="number"] {
+    margin: 30px 15% 0 15%;
+    padding: 5px;
+    outline-color: yellow;
+    border-radius: 5px;
+    border: 2px solid blue;
+}
+button#playeronebutton {
+    margin: 3px 0 0 0;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: beige;
+    outline: none;
+}
+button#playertwobutton {
+    margin: 3px 0 0 0 ;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: beige;
+    outline: none;
+}
+button#reset{
+   text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: beige;
+    outline: none;
+}
+.general2 h1{
+    text-align: center;
+    margin: 0;
+    font-size: 55px
+}
+.general2 h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 50px;
+    margin-bottom: 8px;
+    color: white;
+}
+.general2 p {
+    text-align: center;
+    margin: 0;
+    color: yellow;
+}
+.winner{
+    color: red;
+}
+.input {
+    text-align: center;
+}
+.button {
+    margin-left: 44%;
+}
+.general2{
+background-color: darkblue;
+    padding: 35px 0;
+}
+h1 {
+    color: yellow;
+    font-family: monospace;
+}
+.special h1 {
+    font-size: 46px;
+    background-color: beige;
+    padding: 12px;
+    margin: 0;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+}
