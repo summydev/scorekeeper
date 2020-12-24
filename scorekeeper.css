@@ -83,7 +83,7 @@ background-color: darkblue;
     padding: 35px 0;
 }
 h1 {
-    color: yellow;
+    color: darkblue;
     font-family: monospace;
 }
 .special h1 {
@@ -92,6 +92,4 @@ h1 {
     padding: 12px;
     margin: 0;
     text-align: center;
-    text-decoration-line: underline;
-    text-decoration-color: blue;
 }
